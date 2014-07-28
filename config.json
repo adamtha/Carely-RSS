@@ -1,0 +1,15 @@
+{
+  "routes":
+  [
+    { "path": "/", "callback": "application#index" },
+    { "path":"/rss", "method":"get", "callback":"application#rss" }
+  ],
+  "filters":
+  [
+  	 { "path": "/rss", "callback": "rss#validateRss" }
+  ],
+  "websockets":
+  [
+  	{ "event": "", "callback": ""}
+  ]
+}

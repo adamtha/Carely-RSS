@@ -1,0 +1,25 @@
+{
+  "name": "ToddlerPlay",
+  "version": "0.1.0",
+  "description": "Toddler Play",
+  "framework": "mvc",
+  "main": "app.js",
+  "logfile" : "ToddlerPlay.log",
+  "keywords": [
+  ],
+  "author": "Toddler play",
+  "maintainers": [
+  ],
+  "contributors": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "preferGlobal": false,
+  "dependencies": {
+  	"rss": ">=0.2.0"
+  },
+  "license":"",
+  "private": true
+}
